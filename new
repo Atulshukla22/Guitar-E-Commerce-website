@@ -1,0 +1,126 @@
+<section id="product1" class="section-p1">
+        <h1> Feature Product</h1>
+        <p>latest arrival</p>
+        <div class="pro-cantainer">
+            <div class="pro">
+                <img src="C:\Users\dell\intern pe\task2\images\IMG_20230717_094918.jpg" alt="">
+                <div class="des">
+                    <span>Fender</span>
+                    <h5>Squier SA-105CE Cutaway semi-acoustic guitar</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs.11,999</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                 </div>
+                 
+                 <div class="pro">
+                    <img src="C:\Users\dell\intern pe\task2\images\electric guitar\IMG_20230717_175356.jpg" alt="">
+                    <div class="des">
+                        <span>Yamaha</span>
+                        <h5>Revstar RSE20 Swift Blue Electric Guitar</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>Rs.43,990</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                     </div>
+                     
+                     <div class="pro">
+                        <img src="C:\Users\dell\intern pe\task2\images\IMG_20230717_095226.jpg" alt="">
+                        <div class="des">
+                            <span>yamaha</span>
+                            <h5>FS80C Black Acoustic Guitar</h5>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h4>Rs.8,490</h4>
+                        </div>
+                        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                         </div>
+                         
+                         <div class="pro">
+                            <img src="C:\Users\dell\intern pe\task2\images\ukulele\vault-soprano-ukuleles-blackglossy-vault-uk-003-soprano-colourful-ukulele-21-inch-with-gig-bag-30390775414963_380x.jpg" alt="">
+                            <div class="des">
+                                <span>Vault</span>
+                                <h5>UK-003 Soprana colourful ukulele 21 inch With Gig Bag</h5>
+                                <div class="star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <h4>Rs.1,799</h4>
+                            </div>
+                            <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                             </div>
+                             
+                             <div class="pro">
+                                <img src="C:\Users\dell\intern pe\task2\images\9786808800-808736_l.jpg" alt="">
+                                <div class="des">
+                                    <span>Yamaha</span>
+                                    <h5>SLG200S Steel String Silent Guitar</h5>
+                                    <div class="star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <h4>Rs.55,990</h4>
+                                </div>
+                                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                                 </div>
+                                 
+                                 <div class="pro">
+                                    <img src="C:\Users\dell\intern pe\task2\images\electric guitar\IMG_20230717_175230.png" alt="">
+                                    <div class="des">
+                                        <span>Yamaha</span>
+                                        <h5>TRBX174 Black Electric Guitar</h5>
+                                        <div class="star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <h4>Rs.20,490</h4>
+                                    </div>
+                                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                                     </div>
+                                     
+                                     <div class="pro">
+                                        <img src="C:\Users\dell\intern pe\task2\images\100357.jpg" alt="">
+                                        <div class="des">
+                                            <span>Fender</span>
+                                            <h5>CD 60 MH Acoustic Guitar Mahogony</h5>
+                                            <div class="star">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <h4>Rs.13,360</h4>
+                                        </div>
+                                        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                                         </div>
+    
+         </div>
+
+    </section>

@@ -1,0 +1,523 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Spartan' , sans-serif;
+}
+
+.section-p1{
+    padding: 40px 80px;
+}
+
+button.white{
+font-size: 13px;
+font-weight: 600;
+padding: 11px 18px;
+color: #fff;
+background-color: transparent;
+cursor: pointer;
+border: 1px solid #fff;
+outline: none;
+transition: 0.2s;
+
+}
+
+
+ #header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: rgb(216, 211, 206);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.07);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#navbar{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#navbar li{
+list-style: none;
+padding: 0 20px;
+position: relative;
+
+}
+#navbar li a{
+text-decoration: none;
+font-size: 16px;
+font-weight: 600;
+color: rgb(27, 27, 26);
+transition: 0.4s ease;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color: rgb(73, 160, 160);
+}
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: rgb(79, 143, 148);
+    position: absolute;
+    bottom: -4px;
+    right: 20px;
+
+}
+
+.sub-menu{
+    display: none;
+}
+    
+
+
+#navbar li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: rgb(216, 211, 206); ;
+}
+#navbar li:hover .sub-menu ul{
+    display: block;
+    margin: 10px;
+}
+#navbar li:hover .sub-menu ul li{
+    width: 150px;
+    padding:15px ;
+}
+#mobile{
+    display: none;
+    align-items: center;
+}
+#close{
+    display: none;
+}
+
+
+
+
+#feature{
+    display: flex;
+    align-content: centre;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+#feature .fe-box{
+    width: 175px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 45px rgba(0, 0, 0, 0.08);
+    border: 1px solid #cce8d0;
+    border-radius: 8px;
+    margin: 15px 0;
+
+
+}
+
+#feature .fe-box:hover{
+    box-shadow:  10px 10px 60px rgba(70,62, 221, 0.1);
+
+}
+#feature .fe-box h6{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: rgb(239, 245, 186);
+    background-color: rgb(165, 114, 38);
+    font-size: 12px;
+
+    
+    
+}
+#feature .fe-box:nth-child(2) h6{
+    background-color: rgb(82, 105, 91);
+    
+}
+#feature .fe-box:nth-child(3) h6{
+    background-color: rgb(201, 96, 44);
+}
+#feature .fe-box:nth-child(4) h6{
+    background-color: rgb(92, 90, 71);
+    background-image: url("images/less\ shipping.png");
+}
+#feature .fe-box:nth-child(5) h6{
+    background-color: rgb(180, 177, 149);
+}
+
+#hero{
+    background-image: url("images/hero4.png");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+#hero h2{
+    padding-left: 16px;
+    padding-bottom: 15px;
+    text-decoration: line-through;
+    color: rgb(187, 185, 90);
+    font-size: 40px;
+    font-family: cursive;
+    
+}
+#hero h1{
+    font-size: 30px;
+}
+#hero button{
+    background-color: #8ea121 ;
+    color: #e7ecec;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 35px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 35%;
+
+
+}
+#product1{
+    text-align: center;
+
+}
+ #product1 .pro-cantainer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    
+    
+ }
+
+#product1 .pro{
+    width: 30%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid rgb(216, 211, 206);
+    border-radius: 25px;
+    cursor: pointer;
+     box-shadow:20px 20px 30px rgba(0,0,0,0.02);
+    margin: 15px 0px;
+    position: relative;
+}
+#product1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+}
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0px;
+}
+#product1 .pro .des span{
+    color: #606063;
+    font-size: 12px;
+}
+#product1 .pro .des h5 {
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+
+}
+#product1 .pro .des i{
+    font: size 12px;
+    color:rgb(243, 181, 25);
+}
+#product1 .pro .des h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+}
+#product1 .pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    font-weight: 500;
+    color: rgb(82, 212, 169);
+    border: 1px solid #088178;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+#sm-banner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(images/accoustic\ banner.jpg) ;
+    min-width: 580px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+
+}
+#sm-banner .banner-box2{
+    background-image: url(images/electric\ banner.jpg);
+
+}
+
+
+#sm-banner h4 {
+color: #fff;
+font-size: 20px;
+font-weight: 300;
+}
+#sm-banner h2 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 800;
+}
+#sm-banner span {
+color: #fff;
+font-size: 14px;
+font-weight: 500;
+padding-bottom: 15px;
+}
+#sm-banner .banner-box:hover button{
+    background-color: #088178;
+    border: 1px solid #088178 ;
+}
+
+
+
+#sm-banner2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 4%;
+}
+#sm-banner2 .banner-box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(images/ukulelebanner.jpg) ;
+    min-width: 800px;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+
+}
+
+
+
+#sm-banner2 h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    }
+    #sm-banner2 h2 {
+        color: #fff;
+        font-size: 28px;
+        font-weight: 800;
+    }
+    #sm-banner2 span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    }
+    #sm-banner2 .banner-box3:hover button{
+        background-color: #088178;
+        border: 1px solid #088178 ;
+    }
+    
+
+/*acoustic*/
+#hero-a{
+    background-image: url(images/accoustic\ banner\ \(2\).jpg);
+    min-width: 750px;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-position: center;
+    padding: 14px;
+}
+
+#hero-a h2,
+#hero-a h3{
+    color: #fff;
+    padding: 3px;
+}
+
+
+
+ #product1 .pro-cantainer-a{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;    
+}
+/*electric*/
+
+#hero-e{
+    background-image: url(images/electric\ banner.jpg);
+    min-width: 750px;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-position: center;
+    padding: 14px;
+}
+
+#hero-e h2,
+#hero-e h3{
+    color: #fff;
+    padding: 3px;
+}
+
+
+
+ #product1 .pro-cantainer-e{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;    
+}
+
+/*ukulele*/
+
+#hero-u{
+    background-image: url(images/ebanner.png);
+    min-width: 750px;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-position: center;
+    padding: 14px;
+}
+
+#hero-u h2,
+#hero-u h3{
+    color: #fff;
+    padding: 3px;
+}
+
+
+
+ #product1 .pro-cantainer-u{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;    
+}
+/*aboutus*/
+#page-header.blog-header{
+    background-color: #8ea121;
+    min-width: 750px;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-position: center;
+    padding: 14px;
+    background: linear-gradient(0.25turn, #8ea121, white,#54a121) ;
+
+}
+#about-head{
+    display: flex;
+    align-items: center;
+
+}
+#about-head img{
+    width: 50%;
+    height: 60vh;
+}
+
+#about-head div{
+    padding-left: 40px;
+}
+
+
+@media (max-width:799px) {
+    
+ 
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #E3E6F3;
+        box-shadow: 0 40px 60px rgba(0, 0,0, 0.1);
+        padding: 80px 0 0 10px;
+
+    }
+    #navbar .active-nav{
+        nav-right: 0px;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+    }
+    #mobile{
+        display: flex;
+        align-items: center
+    }
+    #mobile i{
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
+
+}
+#close{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: #222;
+    font-size: 24px;
+
+}
+#lg-bag{
+    display: none;
+}
+}
+/* login*/
